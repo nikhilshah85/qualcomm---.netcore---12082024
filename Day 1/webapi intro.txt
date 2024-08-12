@@ -1,0 +1,116 @@
+				For data exchange on cross platforms, cross technology, cross apps
+		
+
+	1. We had SOA architecture - Web Service - Advance Web service - in .net we called it as WCF app's 
+		Communication was SOAP messages - XML based heavy message
+		This was more of Meta data - than data
+
+		eg. temp exchange - 
+		get me temperature for Blr
+			it should return 30
+
+		instead it will return
+
+			<city:string> Bangalore </city:string>
+			<temperature:int>30</temperature:30>
+			...
+			...
+				...
+			more info
+
+		Thus this was very slow
+
+	2. Web Services did not follow much of HTTP protocol standards
+
+	3. Lenghty for development as well for consumption
+	4. used to be proxy based - thus a lot of dependency
+		Thus a more better way of communication was needed
+
+
+		So to solve above problem and challenges W3C and ECMA came up with a new standards
+			called REST
+
+			1. Representational State Transfer - which transfers state of data only - not the 					metadata
+			
+			2. Not proxy based 
+			
+			3. Based on JSON data exchange format
+			
+	Microsoft took this standards - created a framework based on it -(namespace, classes, methods, attributes, props etc...) and named it as WebAPI - runs on .net core 
+
+		while developing we will follow all the REST standards
+
+
+---------------------------------------------
+	For testing API there are tools which are used called
+		Postman
+		Fiddler
+		Certain extentions on browser
+
+		but since .net core 5.0 Microsoft has included - swagger
+
+--------------------------------------------------------------------------------------------
+
+	A WebAPI developer does 2 things -
+	1. Develope WebAPI - so that others can consume it
+	2. Consume WebAPI - developed by other
+
+
+-------
+	1. Develope WebAPI - so that others can consume it
+		you create methods running web and following Http Procols verbs
+
+		create web methods for 
+			GET - when user wants to get the data
+			PUT - when user want to edit/update the data
+			POST - when user wants to add/create the new data 
+			DELETE - when user wants to delete the data
+		
+		data is termed as a resource in WebAPI 
+
+	end users/clients/customers/applications will communicate for above methods and you will
+		send Response with 2 things data and StatusCode
+
+		www.nikhilshahtrainer.com 
+		if you try to access this web but there is not such page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

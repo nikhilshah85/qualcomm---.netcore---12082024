@@ -1,0 +1,66 @@
+.Net framework was designed for windows OS
+
+	A new project with 10 developers on .Net framework
+	You need and organization needs to invest on below
+
+	1. Windows OS - investment 
+	2. Visual Studio - licence
+	3. Production - Windows Server (very costly)
+---
+	Why not use Java ?, node, Angular -- which will be completely free 
+	
+	4.Additionally you have Cloud, .net framework not designed for all the cloud
+
+	5. Lots of new principles, design patterns, code practices came up which was not followed by 			framework
+			Design principles
+			ORM 
+			Dependency Injection 
+			JSON based REST API services - no present 
+
+		and thus they completely rewrote the framework from scratch - and made it free with tools
+			complete support for cloud
+
+		Develop anywhere, Run Anywhere
+		--Complete opensource
+		--VS Code - Visual Studio Code - free for all the OS
+
+	also has CLI support - to create, develop, build, run and deploy the apps
+
+
+		Lets us create first app using VS code 
+
+------------------------------------------------------------------------------------------
+			CLI Commands for .net core - first app 
+
+		1. dotnet --version
+		2. dotnet new typeofapp --name firstApp
+				console
+				WebAPI
+				mvc
+				etc....
+
+			eg for MVC app
+			dotnet new mvc --name shoppingAPP
+		3. dotnet build
+		4. dotnet test
+		5. dotnet run
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+	
+

@@ -1,0 +1,27 @@
+1. DI 
+2. state management,caching etc....
+
+------------------------------------------------------------------------------------------------------
+		Task: use Visual Studio - any verion above 2019
+	Time : 40 Mins 2:45 - 3:25
+
+	1. Create a new webAPI project
+	2. Add 2 classe
+			BankAccountInfo
+			BranchInfo
+	3. Add Below Properies
+		BankAccountInfo
+			AccNo, AccName, Acctype, AccBalance, AccIsActive, AccBranch
+		BranchInfo
+			BranchNo, BranchName, BranchCity
+
+		Add a satic list of colletion and perform CRUD operations
+
+	4. Add 2 controllers AccountController
+			     BranchController
+	5. Add ActionMethods to call the abve methods
+
+	----
+		do it an similar fashion like previos example, test it
+	we will implement DI, Caching and State management in the same app
+	
