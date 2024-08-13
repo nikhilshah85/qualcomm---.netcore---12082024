@@ -1,0 +1,16 @@
+
+Day 2 Topics 
+	Design - SOLID Principles
+
+	EF core - database first approach and create a 100% well working healthy WebAPI 
+		then when you add things like DI, reposity pattern,singleton,JWT token you are a completely ready to be deployed as developer to project (work 3 months and you can scale up to senior level after good exposure and understanding an WebAPI architech)
+	
+
+	Design patterns 
+		Repository pattern
+		SingleTon pattern
+		Pooling
+
+--------------------------------------------------------
+	We have EF core on day 3 
+	are you all already working on EF ?

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "DM1UCGcJ7Bh9ZFUiyRT6IRRejaLbOqbFcpNGrsnxStidNE328Fj3gvfo39G+QdgHQBLloKiHJAN4aYdD3MAtTA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\.NetCoreTraining12082024\\Day 2\\consume_WebAPI_Fetch\\consume_WebAPI_Fetch\\consume_WebAPI_Fetch.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikhi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\nikhi\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\nikhi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\nikhi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

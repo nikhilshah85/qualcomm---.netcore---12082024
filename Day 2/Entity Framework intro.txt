@@ -1,0 +1,25 @@
+					Entity Framework
+
+		For data accesses, users has to get data from Databases
+
+		ADO.Net for Microsoft had been since long (not based on any principles, standards etc..)
+
+		Industry has a standard called ORM - Object relation mapping (already used by java in 											Hibernate)
+
+		ORM is relate every data entity(table in db) with a class - or vice versa
+				their columns with a property
+				datatype with column datatypes
+				constraints with conditions between backend and frontend
+				and application should sound like database is a part of applicion in memory 
+	
+
+
+			ADO.Net had below problems	
+		1. 2 approaches, connected and disconnected - api for both were different
+			with EF now both the approach is same Api 
+				approaches are renamed as Code first and database first approach
+		2. ADO.net was very lenthy - lots of code
+			EF will be mostly 2 lines
+
+
+			Thus let us see first example on the above point with a database

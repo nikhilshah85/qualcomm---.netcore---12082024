@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\consume_WebAPI_Fetch.props" />
+</Project>

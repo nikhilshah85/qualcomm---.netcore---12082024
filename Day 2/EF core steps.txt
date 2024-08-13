@@ -1,0 +1,30 @@
+1. Create a database and add a tables with some sample data
+2. Create a new .net application - WebAPI, MVC, Console etc..
+3. .Net core applications are modular they are not sure which functionality you will be using, eg EF, DI,     Repository pattern, CORS etc... thus it does not have this features enabled or installed by default
+	Thus we need to add Nuget packages for EF - 4 packages in sequence
+
+solution explorer --> Right click --> Manage Nuget package --> Browse --> search EntityFrameworkCore
+	
+		Microsoft.EntityFrameworkCore.Tools
+		Microsoft.EntityFrameworkCore.Design
+		Microsoft.EntityFrameworkCore
+		Microsoft.EntityFrameworkCore.SqlServer (based on which database server you have)
+
+4. Ready your connection string which will be used to download POCO classes
+		POCO - pain C# Object
+		this class is a mapping to table and its columns, it will have property for every column
+		servername and database name  - keep it ready
+5. Go to tools --> Nuget Package Manager --> Nuget package manager console
+	Scaffold-DbContext "server= ; database= ; integrated security=true; TrustServerCertificate=true"
+		-Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+	this will create a new folder Models and add Poco Files to it
+
+
+6. Now you can create a WebAPI controller based on this poco classes and it will be having all the CRUD operations
+
+
+
+
+
+

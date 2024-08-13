@@ -1,0 +1,34 @@
+
+
+EF Core - More realistic - with DI and later we will see adding more features to the app
+1. Create a new database - BankingDB
+2. Add 2 tables - which are related to each other with primary key and foreign key
+
+	BranchInfo - BranchNo (Primary key) -  add 5 records
+		     BranchName  
+		     BranchCity 
+	AccountsInfo -  AccountNo(Primary key) - add 5 records
+		        AccountName
+			AccountType
+			AccountBalance
+			AccountIsActive
+			 AccountBranch (Foreign Key)
+
+		This are the related tables
+3. Create a new WebAPI project and enable entity framework, download poco classes and create 2 controllers
+4. configure DI 
+5. test the project
+-----------------------------------------------------
+1.	we will want to add 1 more column to AccountsInfo table in a database - 
+		want to change datatype of AccountBalance from int to bigint
+	
+	will my application still work ???? if not what to do
+
+		Want to add 1 more table to database TransactionInfo
+		how can it become part of WebAPI application ????
+
+2. We want to provide more methods for accountsInfo like
+		getallaccountsbyType (user passes savings, current, pf )
+		GetAllActiveAccounts
+		GetTotalAccounts 
+	how to have this accounts ?

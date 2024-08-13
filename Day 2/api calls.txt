@@ -1,0 +1,27 @@
+
+
+			This is the WebAPI, you developed and you are sharing the data to 
+				--clients
+				--customer
+				--other applications technologies (front end like MVC, React, Angular etc)
+				-- making data available to data scientist, data engineers, analyst 
+
+
+	on the other hand, if data is shared with you in the API format, how will you consume it in frontend ?
+
+
+	To consume the API - there are 2 ways - 2 approach (your expertise will be to choose the right one - 								codeing is 8-10 lines in both approach
+
+
+		1. Client Side Calls
+			This is the fastest way to display the data, less secured, not to be used for
+			sensitive data calls like Logins, Credits cars, statements, transfer etc.
+
+			we use fetch api - which is a standard built into all the browser and web apps
+			
+		2. Server Side calls
+			This is little bit slower than the above 1 but safest 
+			we use HttpClient class which is a programming approach for every programming lang
+			C#, Python, Java, Angular, Typescript, React etc....
+			this can also be used in console app, desktop apps, libraries etc, where as 1st one 			is only used for webapps
+	

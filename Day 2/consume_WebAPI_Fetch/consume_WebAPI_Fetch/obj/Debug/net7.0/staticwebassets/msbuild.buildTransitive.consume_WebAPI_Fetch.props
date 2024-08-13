@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\consume_WebAPI_Fetch.props" />
+</Project>
