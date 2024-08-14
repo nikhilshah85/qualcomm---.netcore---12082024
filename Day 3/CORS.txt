@@ -1,0 +1,24 @@
+			When we had WebAPI yesterday, we had couple of URL
+
+
+		/accounts/list
+		/accounts/list/savings
+		/accounts/total
+		/accounts/sortbytype
+		
+
+		/branches/city/Mumbai
+		/branches/branchname/manyatatech
+		/branches/branch/10
+
+	so like wise api application will have 100's of such urls
+
+	we we will not want everyurl to be accessible by everyone, everyapplication etc..
+		That is why, when you have a WebAPI application, no one can access the data from it
+			
+		Thus we have to configure something called as CORS
+		Cross Origin Resource Shareing
+			we will decide which application gets access to accounts, 
+			who can perform insert, or update or delete or all of them 
+			Who can get only branches but not accounts
+		so we create cors policies, done by developers for the same
