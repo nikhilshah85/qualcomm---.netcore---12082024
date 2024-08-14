@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HttpClient_call_demo.props" />
+</Project>

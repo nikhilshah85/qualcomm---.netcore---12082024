@@ -1,0 +1,63 @@
+Day 3:
+	1. Server side api calls - HttpClient
+	2. CORS - security feature
+	3. Authentication in WebAPI
+	3. JWT - Json Web Token - implementation for security for authentication
+	4. oAuth security in MVC application 
+	5. Post test
+	6. Feedback
+
+	As a developer, you need to 
+		1. develop WebAPI 
+		2. Consume WebAPI
+
+
+		We used Fetch API - for client side consumption
+			This is fastest a little bit less secure 
+
+		We Will use HttpClient - for Server side 	
+			This is the safest
+
+
+	-------------------
+	Let us see how is Fetch API not so safe
+	Task : Create a new Applicaiton in day 3 folder - MVC application
+		Make a call to below url - useing fetch api 
+		
+		https://jsonplaceholder.typicode.com/comments
+
+		We should not be useing for scencetive data
+		Because the complete code written by developer gets disclosed on browser
+		
+	Let us now make calls which are safer useing HttpClient class
+			HttpClient is a part of standard and is available in every technology
+		It can also be used for Destkop apps, console apps, libraries etc...
+
+
+
+		1. create a new project - MVC
+		2. We need to create a new Model Class - class which will have properties of incoming 				data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
